@@ -1,8 +1,8 @@
 FROM ubuntu:18.04
 
 LABEL version="1.0" \
-      maintainer="thi.hanvan@rapsodo.com" \
-      description="This docker setup is used for setup build environment for STPlus"
+      maintainer="vanthi.han@gmail.com" \
+      description="This docker setup is used for setup build environment for any project"
 
 # https://dev.to/0xbf/set-timezone-in-your-docker-image-d22 for how to setup timezone
 # for timezone list, pls visit https://en.wikipedia.org/wiki/List_of_tz_database_time_zones

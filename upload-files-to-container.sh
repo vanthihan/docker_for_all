@@ -22,10 +22,6 @@ CMD_ARR[${#CMD_ARR[@]}]="cp -fv ./run-in-docker-container/0_env.sh ${HOST_SHARED
 CMD_ARR[${#CMD_ARR[@]}]="chmod 555 ${HOST_SHARED_SCRIPT_DIR}/0_env.sh"
 
 #Project clone script
-CMD_ARR[${#CMD_ARR[@]}]="cp -fv ./run-in-docker-container/clone-stplus.sh ${HOST_SHARED_SCRIPT_DIR}"
-CMD_ARR[${#CMD_ARR[@]}]="chmod 555 ${HOST_SHARED_SCRIPT_DIR}/clone-stplus.sh"
-
-#Project clone script
 CMD_ARR[${#CMD_ARR[@]}]="mkdir -p ${HOST_SHARED_SCRIPT_DIR}/ssh_key"
 CMD_ARR[${#CMD_ARR[@]}]="cp -fv ~/.ssh/id_rsa* ${HOST_SHARED_SCRIPT_DIR}/ssh_key"
 
